@@ -32,23 +32,22 @@
 //     }
 // }
 
-int check_sys()
-{
-    int a=1;
-    return *(char*)&a;
-}
-int main()
-{
+// int check_sys()
+// {
+//     int a=1;
+//     return *(char*)&a;
+// }
+// int main()
+// {
 
-    int ret = check_sys();
-    if(ret==1)
-    {
-        printf("xiao");
-    }
-    else
-    {
-        printf("da");
-    }
-    return 0;
-    return 0;
-}
+//     int ret = check_sys();
+//     if(ret==1)
+//     {
+//         printf("xiao");
+//     }
+//     else
+//     {
+//         printf("da");
+//     }
+//     return 0;
+// }
